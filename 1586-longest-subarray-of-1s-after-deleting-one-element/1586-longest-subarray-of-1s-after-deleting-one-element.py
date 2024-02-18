@@ -5,7 +5,7 @@ class Solution:
         
         ans: int = 0
 
-        for ridx in range(len(nums))
+        for ridx in range(len(nums)):
             if nums[ridx] == 0:
                 ans = max(ans, ridx - lidx - (zeroidx >= lidx))
 
