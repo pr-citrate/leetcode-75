@@ -8,7 +8,6 @@ class Solution:
         for ridx in range(len(nums)):
             if nums[ridx] == 0:
                 ans = max(ans, ridx - lidx - (zeroidx >= lidx))
-
                 lidx = zeroidx + 1
                 zeroidx = ridx
             ridx += 1
